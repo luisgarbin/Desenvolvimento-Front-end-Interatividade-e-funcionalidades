@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplicação SPA - Dashboard</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <!-- Chart.js carregado via CDN antes do script principal -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/" data-link>Início</a>
+      <a href="/dashboard" data-link>Dashboard</a>
+      <a href="/cadastro" data-link>Cadastro</a>
+    </nav>
+  </header>
+
+  <!-- Container principal onde o conteúdo dinâmico é renderizado -->
+  <main id="app"></main>
+
+  <!-- Script principal do tipo module -->
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>
